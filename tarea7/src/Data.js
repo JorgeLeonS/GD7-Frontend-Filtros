@@ -62,7 +62,7 @@ const ValorClaridad = [
 ];
 
 const ImgsCorte = [
-    `${CorteBasePath}/perfecta.png`,
+    `${CorteBasePath}/excelente.png`,
     `${CorteBasePath}/muy-bueno.png`,
     `${CorteBasePath}/bueno.png`,
     `${CorteBasePath}/regular.png`,

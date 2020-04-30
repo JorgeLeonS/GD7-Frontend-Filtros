@@ -4,8 +4,8 @@ const ButtonImg = (props) =>{
     
     return(
         <div className="m-1">
-            <img src={props.img}></img>
-            <br></br>
+            <img className="m-auto" src={props.img}></img>
+            {/* <br></br> */}
             <p>{props.lbl}</p>
         </div>
     )

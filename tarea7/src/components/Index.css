@@ -1,0 +1,23 @@
+.Container{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.Column{
+    float: left;
+    width: 40%;
+    height: 200px;
+    /* padding: 1%; */
+}
+
+.Row1{
+    display: flex;
+    flex-wrap: wrap;
+    float: left !important;
+    width: 16%;
+}
+
+
