@@ -3,24 +3,28 @@ import ButtonImg from './ButtonImg';
 
 const ButtonFilter = (props) =>{
 
-    // const buttonList = imgs.map((path, index) =>(
-
-    // ));
     return(
         <>
         {props.imgs.map((path, i) =>{
             return(
-                <div key={i} style={{border: "solid 1px blue"}} >
+                <div key={i} style={{border: "solid 1px blue"}} onClick={() => {
+                    console.log(props.handler);
+                  }}
+                >
                     <ButtonImg
                         key = {i}
                         img = {path}
                         lbl = {props.lbls[i]}
+                        handler={props.handler}
+                        isSelected={props.lbls[i] === props.selected ? true : false}
                     ></ButtonImg>
                 </div>
         )
     })}
     </>
+    
     )
+   
 }
 
 export default ButtonFilter;

@@ -1,23 +1,16 @@
-.Container{
-    margin: auto;
-    width: 80%;
-    text-align: center;
-    padding: 10px;
+@font-face {
+    font-family: NunitoSans;
+    src: url("/Cortes/NunitoSans/NunitoSans-Regular.ttf");
+  }
 
-}
-
-.Column{
-    float: left;
-    width: 40%;
-    height: 200px;
-    /* padding: 1%; */
-}
-
-.Row1{
-    display: flex;
-    flex-wrap: wrap;
-    float: left !important;
-    width: 16%;
-}
-
-
+  .selected {
+    background-color: rgb(197, 197, 197);
+  }
+  
+  .notSelected:hover {
+    background-color: lemonchiffon;
+  }
+  
+  .notSelected {
+    background-color: transparent;
+  }

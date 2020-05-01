@@ -2,6 +2,7 @@ const FormaBasePath = "/Cortes/Forma";
 const ColorBasePath = "/Cortes/Color";
 const ClaridadBasePath = "/Cortes/Claridad";
 const CorteBasePath = "/Cortes/Corte";
+const QuilatajeBasePath = "/Cortes/Quilataje";
 
 const ImgsForma = [
     `${FormaBasePath}/redondo.png`,
@@ -74,6 +75,11 @@ const ValorCorte = [
     "BUENO (BRILLANTE)",
     "REGULAR (POCO BRILLANTE)",
 ];
+
+const ImgsQuilataje = [
+    `${QuilatajeBasePath}/pequeno.png`,
+    `${QuilatajeBasePath}/grande.png`,
+]
 
 export{
     ImgsForma,
